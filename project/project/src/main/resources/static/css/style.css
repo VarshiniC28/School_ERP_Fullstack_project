@@ -1,0 +1,235 @@
+/* =========================
+GLOBAL
+========================= */
+
+body{
+    font-family:"Segoe UI",Arial,sans-serif;
+    background:#eef2f6;
+    color:#2b2b2b;
+}
+
+/* =========================
+NAVBAR
+========================= */
+
+.navbar{
+    background:#1f3c6e !important;
+}
+
+/* hide School ERP dropdown */
+
+#erpDropdown,
+.dropdown-menu{
+    display:none !important;
+}
+
+/* =========================
+HERO
+========================= */
+
+.hero-section{
+    height:85vh;
+    background:
+    linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.65)),
+    url("https://images.unsplash.com/photo-1580582932707-520aed937b7b");
+    background-size:cover;
+    background-position:center;
+}
+
+/* =========================
+REMOVE UNWANTED SECTIONS
+========================= */
+
+#elearning,
+#admission,
+#transport,
+#services,
+#examination{
+    display:none;
+}
+
+/* =========================
+ERP MODULE CARDS
+========================= */
+
+.dashboard-card{
+    border:none;
+    border-radius:10px;
+    height:260px;
+    position:relative;
+    overflow:hidden;
+    color:white;
+    transition:0.3s;
+}
+
+.dashboard-card img{
+    display:none;
+}
+
+.dashboard-card .card-body{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding:25px;
+}
+
+/* Admin background */
+
+.col-md-4:nth-child(1) .dashboard-card{
+    background:
+    linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.65)),
+    url("https://images.unsplash.com/photo-1557804506-669a67965ba0");
+    background-size:cover;
+    background-position:center;
+}
+
+/* Student background */
+
+.col-md-4:nth-child(2) .dashboard-card{
+    background:
+    linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.65)),
+    url("https://images.unsplash.com/photo-1523240795612-9a054b0db644");
+    background-size:cover;
+    background-position:center;
+}
+
+/* Faculty background */
+
+.col-md-4:nth-child(3) .dashboard-card{
+    background:
+    linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.65)),
+    url("https://images.unsplash.com/photo-1524178232363-1fb2b075b655");
+    background-size:cover;
+    background-position:center;
+}
+
+.dashboard-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* =========================
+CARD TEXT
+========================= */
+
+.dashboard-card h5{
+    font-size:22px;
+    font-weight:600;
+}
+
+.dashboard-card p{
+    font-size:14px;
+}
+
+/* =========================
+ABOUT SECTION FIX
+========================= */
+
+#about img{
+    width:100%;
+    height:auto;
+    border-radius:8px;
+    display:block;
+}
+
+/* =========================
+CONTACT FORM
+========================= */
+
+form{
+    background:white;
+    padding:25px;
+    border-radius:8px;
+    box-shadow:0 4px 18px rgba(0,0,0,0.1);
+}
+
+/* =========================
+DASHBOARD FEATURES
+========================= */
+
+#dashboard p{
+    background:white;
+    border-left:5px solid #1f3c6e;
+    padding:18px;
+    margin:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+/* =========================
+FOOTER
+========================= */
+
+footer{
+    background:#1f3c6e !important;
+}
+
+/* =========================
+RESPONSIVE
+========================= */
+
+/* Tablet */
+
+@media (max-width:992px){
+
+.dashboard-card{
+    height:240px;
+}
+
+}
+
+/* Mobile */
+
+@media (max-width:576px){
+
+.hero-section{
+    height:70vh;
+}
+
+.hero-section h1{
+    font-size:32px;
+}
+
+.hero-section p{
+    font-size:16px;
+}
+
+.dashboard-card{
+    height:220px;
+}
+
+}
+
+/* =========================
+ABOUT SECTION IMPROVEMENT
+========================= */
+
+#about{
+    padding:70px 0;
+    background:#f5f7fb;
+}
+
+/* force image display correctly */
+
+#about img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+    border-radius:10px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* better spacing */
+
+#about .col-md-6{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+/* school-style text */
+
+#about p{
+    font-size:16px;
+    line-height:1.7;
+    color:#444;
+}
