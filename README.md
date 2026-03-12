@@ -21,22 +21,22 @@ Manages the complete operations of a school with three role-based dashboards.
 - Student & Faculty management with full CRUD operations
 - Daily attendance tracking with auto percentage calculation
 - Exam score entry with automatic grade calculation (A+, A, B+, B, C, D, F)
-- Fee management — set total, record payments, auto-clear on full payment, track defaulters
+- Fee management - set total, record payments, auto-clear on full payment, track defaulters
 - Timetable scheduling with duplicate slot prevention
-- Admin reports — fee collection summary, attendance overview, top 10 scorers, fee defaulters
+- Admin reports - fee collection summary, attendance overview, top 10 scorers, fee defaulters
 
 ---
 
 ## Tech Stack
 
-- **Backend** — Java 21, Spring Boot 3.4.5, Rest API
-- **Security** — Spring Security 6, BCrypt
-- **Database** — MySQL 8, Spring Data JPA, Hibernate
-- **Frontend** — Thymeleaf, Bootstrap 5, JS
-- **Build** — Maven, Lombok
+- **Backend** - Java 21, Spring Boot 3.4.5, Rest API
+- **Security** - Spring Security 6, BCrypt
+- **Database** - MySQL 8, Spring Data JPA, Hibernate
+- **Frontend** - Thymeleaf, Bootstrap 5, JS
+- **Build** - Maven, Lombok
 
 ---
 
 ## Author
 
-**Your Name** — [GitHub](https://github.com/YOUR_USERNAME) · [LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
+**Varshini C**  [GitHub](https://github.com/VarshiniC28) · [LinkedIn](https://www.linkedin.com/in/varshini-c-137200280/)
