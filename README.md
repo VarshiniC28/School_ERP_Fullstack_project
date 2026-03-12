@@ -1,4 +1,4 @@
-# School ERP — Full Stack Web Application
+# School ERP - Full Stack Java Application
 
 A School Management System built with Spring Boot 3, Spring Security, JPA/Hibernate, MySQL, and Thymeleaf.
 Manages the complete operations of a school with three role-based dashboards.
